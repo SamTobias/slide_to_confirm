@@ -214,6 +214,7 @@ class ConfirmationSliderState extends State<ConfirmationSlider> {
                 sliderReleased(details);
               },
               child: Container(
+                key: const Key("ContentContainer"),
                 height: widget.height - 10,
                 width: widget.height - 10,
                 decoration: BoxDecoration(
